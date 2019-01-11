@@ -6,6 +6,6 @@ namespace ConAppDotNettyRPCTest.Server
 {
     public interface IOrderService
     {
-        double CalculateFinalOrderSum(long userId, double originalSum);
+        decimal CalculateFinalOrderSum(long userId, decimal originalSum);
     }
 }

@@ -14,7 +14,7 @@ namespace ConAppDotNettyRPCTest.Client
             //var msg2 = client.SayHello("Hello2");
             //Console.WriteLine(msg2);
 
-            var prize = 100.1;
+            decimal prize = 100.1M;
             IOrderService orderService = RPCClientFactory.GetClient<IOrderService>("127.0.0.1", 9999);
             var sum1 = orderService.CalculateFinalOrderSum(500, prize);
             Console.WriteLine(sum1);
