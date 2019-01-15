@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DotNettyRPC" Version="1.4.1" />
+    <PackageReference Include="DotNettyRPC" Version="1.5.4" />
   </ItemGroup>
 
 </Project>
